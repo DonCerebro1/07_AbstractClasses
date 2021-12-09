@@ -1,5 +1,7 @@
 package com.cc.java;
 
+
+// Abstrakte Klassen
 public class App {
     public static void main(String[] args) {
         Rectangle rectangle = new Rectangle(10.0,10.0);
@@ -36,7 +38,7 @@ public class App {
     }
         */
 
-        
+
     /* Besser Polymorphie */    
     // Als parameter kann man auch Objekt Referenzen nutzen
     // Wir könnten für alles einzelne Methoden machen oder eine aus Shape weil andere Erben und in den Subklassen die Methoden Overriden werden ((Polymorphie))
